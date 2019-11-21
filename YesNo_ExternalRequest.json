@@ -1,0 +1,19 @@
+{
+  "Name": "YesNo_ExternalRequest",
+  "UniqueId": "4825015d-1d56-4ae6-b997-e5757861d0a8",
+  "Description": "Displays the answer from yes no site.",
+  "StartupRules": [
+    "Manual",
+    "Robot"
+  ],
+  "Language": "javascript",
+  "BroadcastMode": "verbose",
+  "TimeoutInSeconds": 31540000,
+  "CleanupOnCancel": false,
+  "WriteToLog": false,
+  "Parameters": {
+    "int": 10,
+    "double": 20.5,
+    "string": "twenty"
+  }
+}
